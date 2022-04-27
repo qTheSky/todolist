@@ -8,7 +8,7 @@ const Post = () => {
             <div className={s.item}>
                 <img
                     src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT94afZQIGT9vTsfYlodOh_jsmujU4YBDCU8Q&usqp=CAU'/>
-                post 1
+                post 2
                 <div>
                     <span>like</span>
                 </div>
