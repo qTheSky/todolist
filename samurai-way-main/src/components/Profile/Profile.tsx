@@ -8,7 +8,7 @@ const Profile = () => {
         <div className={s.content}>
             <div>
                 <img
-                    src="https://media-exp1.licdn.com/dms/image/C4D1BAQGDmALg_8s-Yg/company-background_10000/0/1519799119530?e=2147483647&v=beta&t=MpzHeo7wdMoePy-CjWNPwwMbgDU3ydtdqIXGYFtSisg"/>
+                    src="https://cdn.pixabay.com/photo/2018/05/01/07/52/tuscany-3364921__480.jpg"/>
             </div>
             <div>
                 ava + description
