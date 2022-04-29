@@ -7,7 +7,7 @@ export type AddressType = {
 }
 export type HouseType = {
     buildedAt: number
-    repaired: false
+    repaired: boolean
     address: AddressType
 
 }
