@@ -8,6 +8,7 @@ import TodoList, {TaskType} from './TodoList';
 // update
 // delete
 
+export type filterValueType = 'all' | 'active' | 'completed'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         {id: 2, title: 'JS/TS', isDone: true},
         {id: 3, title: 'React', isDone: false},
     ])
+    const [filter, setFilter] = useState<filterValueType>('all')
     const TodoListTitle_1: string = 'What to learn'
 
     const removeTask = (taskID: number) => { //2
@@ -26,8 +28,9 @@ function App() {
     return (
         <div className="App">
             <TodoList
-                title={TodoListTitle_1}
                 tasks={tasks}
+                filter={filter}
+                title={TodoListTitle_1}
                 removeTask={removeTask}
             />
         </div>

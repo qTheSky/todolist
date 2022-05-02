@@ -1,9 +1,11 @@
 import React from 'react';
+import {filterValueType} from './App';
 
 type TodoListPropsType = {
     title: string
     tasks: TaskType[]
-    removeTask: (taskID:number)=> void
+    filter: filterValueType
+    removeTask: (taskID: number) => void
 }
 
 export type TaskType = {
@@ -13,7 +15,15 @@ export type TaskType = {
 }
 
 const TodoList = (props: TodoListPropsType) => {
-    const tasksJSXElements = props.tasks.map(t => {
+    let tasksForRender = props.tasks
+    if (props.filter === 'active') {
+        tasksForRender = props.tasks.filter(t => t.isDone === false)
+    }
+    if (props.filter === 'completed') {
+        tasksForRender = props.tasks.filter(t => t.isDone === true)
+    }
+
+    const tasksJSXElements = tasksForRender.map(t => {
         const removeTask = () => props.removeTask(t.id)
         return (
             <li key={t.id}>
