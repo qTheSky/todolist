@@ -13,16 +13,19 @@ export type filterValueType = 'all' | 'active' | 'completed'
 
 function App() {
     //BLL:
+    const TodoListTitle_1: string = 'What to learn'
     const [tasks, setTasks] = useState<Array<TaskType>>([
         {id: 1, title: 'HTML&CSS', isDone: true},
         {id: 2, title: 'JS/TS', isDone: true},
         {id: 3, title: 'React', isDone: false},
     ])
     const [filter, setFilter] = useState<filterValueType>('all')
-    const TodoListTitle_1: string = 'What to learn'
 
-    const removeTask = (taskID: number) => { //2
+    const removeTask = (taskID: number) => {
         setTasks(tasks.filter(t => t.id !== taskID))
+    }
+    const changeFilter = (filter: filterValueType)=>{
+        setFilter(filter)
     }
     //GUI:
     return (
@@ -32,6 +35,7 @@ function App() {
                 filter={filter}
                 title={TodoListTitle_1}
                 removeTask={removeTask}
+                changeFilter={changeFilter}
             />
         </div>
     );
