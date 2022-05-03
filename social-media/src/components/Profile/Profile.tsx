@@ -5,7 +5,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <div className={s.content}>
+        <div>
             <div>
                 <img
                     src="https://cdn.pixabay.com/photo/2018/05/01/07/52/tuscany-3364921__480.jpg"/>
@@ -16,6 +16,5 @@ const Profile = () => {
             <MyPosts/>
         </div>
     )
-
 }
 export default Profile;
