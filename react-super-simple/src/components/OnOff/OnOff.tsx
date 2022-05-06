@@ -16,14 +16,18 @@ export const OnOff = (props: OnOffProps) => {
 const SwitchOn = ()=>{
     {
         return(
-            <div><span className={s.isOn}>!ON!</span><span>off</span></div>
+            <div>
+            <span className={s.isOn}>ON</span><span>OFF</span> <span className={s.isOn}>O</span>
+            </div>
         )
     }
 }
 const SwitchOff = ()=>{
     {
         return(
-            <div><span>on</span><span className={s.isOff}>!OFF!</span></div>
+            <div>
+            <span>ON</span><span className={s.isOff}>OFF</span> <span className={s.isOff}>O</span>
+            </div>
         )
     }
 }
