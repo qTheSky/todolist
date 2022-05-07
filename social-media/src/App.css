@@ -12,9 +12,5 @@
 
 .app-wrapper-content {
     background-color: cornflowerblue;
-}
-
-.content {
     grid-area: c;
-    background-color: cornflowerblue;
 }
