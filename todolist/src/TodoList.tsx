@@ -1,29 +1,36 @@
-import React from 'react';
+import React, {useState, KeyboardEvent, ChangeEvent} from 'react';
 import {filterValueType} from './App';
 
 type TodoListPropsType = {
     title: string
     tasks: TaskType[]
     filter: filterValueType
-    removeTask: (taskID: number) => void
+    removeTask: (taskID: string) => void
     changeFilter: (filter: filterValueType) => void
+    addTask: (title: string) => void
 }
 
 export type TaskType = {
-    id: number
+    id: string
     title: string
     isDone: boolean
 }
 
 const TodoList = (props: TodoListPropsType) => {
-    let tasksForRender = props.tasks
-    if (props.filter === 'active') {
-        tasksForRender = props.tasks.filter(t => !t.isDone)
-    }
-    if (props.filter === 'completed') {
-        tasksForRender = props.tasks.filter(t => t.isDone)
+    const [title, setTitle] = useState<string>('')
+
+    const getTasksForRender = () => {
+        let tasksForRender = props.tasks
+        if (props.filter === 'active') {
+            tasksForRender = props.tasks.filter(t => !t.isDone)
+        }
+        if (props.filter === 'completed') {
+            tasksForRender = props.tasks.filter(t => t.isDone)
+        }
+        return tasksForRender
     }
 
+    const tasksForRender = getTasksForRender()
     const tasksJSXElements = tasksForRender.length
         ? tasksForRender.map(t => {
             const removeTask = () => props.removeTask(t.id)
@@ -39,12 +46,23 @@ const TodoList = (props: TodoListPropsType) => {
     const changeFilter = (filter: filterValueType) => {
         return () => props.changeFilter(filter)
     }
+    const addTask = () => {
+        props.addTask(title)
+        setTitle('')
+    }
+    const onKeyDownAddTask = (e: KeyboardEvent<HTMLInputElement>) => e.key === 'Enter' && addTask()
+    const onChangeSetHandler = (e: ChangeEvent<HTMLInputElement>) => setTitle(e.currentTarget.value)
+
     return (
         <div>
             <h3>{props.title}</h3>
             <div>
-                <input/>
-                <button>+</button>
+                <input
+                    value={title}
+                    onChange={onChangeSetHandler}
+                    onKeyDown={onKeyDownAddTask}
+                />
+                <button onClick={addTask}>+</button>
             </div>
             <ul>
                 {tasksJSXElements}
