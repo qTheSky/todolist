@@ -1,45 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0baa043-80af-4a9e-8f45-8af9fab71eb5" name="Changes" comment="" />
+    <list default="true" id="0eb25944-294d-43fc-918a-a31e85d9ec35" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28ea0J1aeqEZGtM2V5Mhu5kENqR" />
+  <component name="ProjectId" id="289adCovwXtppqWBQA0H9Q6zBmF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "yarn",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;A:\\my-github\\React\\todolist\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f0baa043-80af-4a9e-8f45-8af9fab71eb5" name="Changes" comment="" />
-      <created>1651579282609</created>
+      <changelist id="0eb25944-294d-43fc-918a-a31e85d9ec35" name="Changes" comment="" />
+      <created>1650631343158</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651579282609</updated>
-      <workItem from="1651579284338" duration="9000" />
+      <updated>1650631343158</updated>
+      <workItem from="1650631345431" duration="47000" />
+      <workItem from="1650906917779" duration="9441000" />
+      <workItem from="1650963549921" duration="1890000" />
+      <workItem from="1651132633211" duration="718000" />
+      <workItem from="1651323292355" duration="28000" />
+      <workItem from="1651336677575" duration="68000" />
+      <workItem from="1651336867202" duration="46000" />
+      <workItem from="1651503996508" duration="11437000" />
+      <workItem from="1651516590219" duration="89000" />
+      <workItem from="1651562245065" duration="3109000" />
+      <workItem from="1651565395176" duration="213000" />
+      <workItem from="1651565633007" duration="14000" />
+      <workItem from="1651576933038" duration="29000" />
+      <workItem from="1651577112497" duration="40000" />
+      <workItem from="1651577161478" duration="13000" />
+      <workItem from="1651579302504" duration="26000" />
+      <workItem from="1651650719555" duration="177000" />
+      <workItem from="1652109039176" duration="10763000" />
+      <workItem from="1652182832990" duration="1845000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
