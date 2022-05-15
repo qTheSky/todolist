@@ -3,17 +3,10 @@ import './App.css';
 import TodoList, {TaskType} from './TodoList';
 import {v1} from 'uuid';
 
-// CRUD -> GUI || CLI
-// create
-// read
-// update
-// delete
-
 export type filterValueType = 'all' | 'active' | 'completed'
 
-
 function App() {
-    //BLL:
+
     const TodoListTitle_1: string = 'What to learn'
     const [tasks, setTasks] = useState<Array<TaskType>>([
         {id: v1(), title: 'HTML&CSS', isDone: true},
@@ -34,7 +27,7 @@ function App() {
     const changeFilter = (filter: filterValueType) => {
         setFilter(filter)
     }
-    //GUI:
+
     return (
         <div className="App">
             <TodoList
