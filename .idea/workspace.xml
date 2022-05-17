@@ -20,6 +20,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/TodoList.tsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -79,6 +83,12 @@
       <workItem from="1652606955246" duration="473000" />
       <workItem from="1652607933810" duration="12000" />
       <workItem from="1652608457604" duration="132000" />
+      <workItem from="1652609399834" duration="109000" />
+      <workItem from="1652615070798" duration="883000" />
+      <workItem from="1652685296310" duration="32000" />
+      <workItem from="1652687654450" duration="691000" />
+      <workItem from="1652713692754" duration="6635000" />
+      <workItem from="1652720583114" duration="2072000" />
     </task>
     <servers />
   </component>
@@ -101,17 +111,6 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.tsx</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
