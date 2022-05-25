@@ -22,7 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/TodoList.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Todolist.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,6 +89,15 @@
       <workItem from="1652687654450" duration="691000" />
       <workItem from="1652713692754" duration="6635000" />
       <workItem from="1652720583114" duration="2072000" />
+      <workItem from="1652793774963" duration="25000" />
+      <workItem from="1652795272403" duration="529000" />
+      <workItem from="1653048304903" duration="3000" />
+      <workItem from="1653244154948" duration="27000" />
+      <workItem from="1653299485687" duration="155000" />
+      <workItem from="1653486398926" duration="107000" />
+      <workItem from="1653486552699" duration="58000" />
+      <workItem from="1653486622895" duration="3877000" />
+      <workItem from="1653492184317" duration="7568000" />
     </task>
     <servers />
   </component>
