@@ -103,7 +103,7 @@
       <workItem from="1653746581795" duration="24000" />
       <workItem from="1653746704280" duration="15000" />
       <workItem from="1653747459823" duration="58000" />
-      <workItem from="1654009046971" duration="3858000" />
+      <workItem from="1654009046971" duration="13602000" />
     </task>
     <servers />
   </component>
@@ -126,6 +126,18 @@
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/TodoList.tsx</url>
+          <line>64</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

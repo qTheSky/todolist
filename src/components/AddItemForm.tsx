@@ -1,20 +1,19 @@
-import React, {ChangeEvent, useState, KeyboardEvent} from 'react';
-
+import React, {ChangeEvent, useState,KeyboardEvent } from 'react';
 type props = {
-		callBack: (title: string) => void
+		callBack: (title: string)=> void
 }
 
 export const AddItemForm = (props: props) => {
-		let [title, setTitle] = useState('')
+		let [title, setTitle] = useState("")
 		let [error, setError] = useState<string | null>(null)
 
 		const addTask = () => {
 				let newTitle = title.trim();
-				if (newTitle !== '') {
+				if (newTitle !== "") {
 						props.callBack(newTitle);
-						setTitle('');
+						setTitle("");
 				} else {
-						setError('Title is required');
+						setError("Title is required");
 				}
 		}
 
@@ -28,13 +27,12 @@ export const AddItemForm = (props: props) => {
 						addTask();
 				}
 		}
-
 		return (
 				<div>
 						<input value={title}
 						       onChange={onChangeHandler}
 						       onKeyPress={onKeyPressHandler}
-						       className={error ? 'error' : ''}
+						       className={error ? "error" : ""}
 						/>
 						<button onClick={addTask}>+</button>
 						{error && <div className="error-message">{error}</div>}
