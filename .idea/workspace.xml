@@ -22,7 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Todolist.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/TodoList.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +42,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;A:\\my-github\\todoList\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -98,6 +98,12 @@
       <workItem from="1653486552699" duration="58000" />
       <workItem from="1653486622895" duration="3877000" />
       <workItem from="1653492184317" duration="7568000" />
+      <workItem from="1653745755074" duration="91000" />
+      <workItem from="1653745859153" duration="200000" />
+      <workItem from="1653746581795" duration="24000" />
+      <workItem from="1653746704280" duration="15000" />
+      <workItem from="1653747459823" duration="58000" />
+      <workItem from="1654009046971" duration="3858000" />
     </task>
     <servers />
   </component>
