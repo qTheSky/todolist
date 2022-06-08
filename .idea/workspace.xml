@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0eb25944-294d-43fc-918a-a31e85d9ec35" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ecd3e668-7c3a-4805-94f0-7c764d9fcb35" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ButtonAppBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +28,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/TodoList.tsx" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="289adCovwXtppqWBQA0H9Q6zBmF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2AGD1XSL6Hhx1BN4SXQrnCCZkrp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,69 +47,21 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;A:\\my-github\\todoList\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0eb25944-294d-43fc-918a-a31e85d9ec35" name="Changes" comment="" />
-      <created>1650631343158</created>
+      <changelist id="ecd3e668-7c3a-4805-94f0-7c764d9fcb35" name="Changes" comment="" />
+      <created>1654626816764</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650631343158</updated>
-      <workItem from="1650631345431" duration="47000" />
-      <workItem from="1650906917779" duration="9441000" />
-      <workItem from="1650963549921" duration="1890000" />
-      <workItem from="1651132633211" duration="718000" />
-      <workItem from="1651323292355" duration="28000" />
-      <workItem from="1651336677575" duration="68000" />
-      <workItem from="1651336867202" duration="46000" />
-      <workItem from="1651503996508" duration="11437000" />
-      <workItem from="1651516590219" duration="89000" />
-      <workItem from="1651562245065" duration="3109000" />
-      <workItem from="1651565395176" duration="213000" />
-      <workItem from="1651565633007" duration="14000" />
-      <workItem from="1651576933038" duration="29000" />
-      <workItem from="1651577112497" duration="40000" />
-      <workItem from="1651577161478" duration="13000" />
-      <workItem from="1651579302504" duration="26000" />
-      <workItem from="1651650719555" duration="177000" />
-      <workItem from="1652109039176" duration="10763000" />
-      <workItem from="1652182832990" duration="1845000" />
-      <workItem from="1652268570425" duration="8000" />
-      <workItem from="1652273329847" duration="34000" />
-      <workItem from="1652281123095" duration="3000" />
-      <workItem from="1652346974895" duration="676000" />
-      <workItem from="1652521078578" duration="213000" />
-      <workItem from="1652605112485" duration="18000" />
-      <workItem from="1652606777797" duration="147000" />
-      <workItem from="1652606955246" duration="473000" />
-      <workItem from="1652607933810" duration="12000" />
-      <workItem from="1652608457604" duration="132000" />
-      <workItem from="1652609399834" duration="109000" />
-      <workItem from="1652615070798" duration="883000" />
-      <workItem from="1652685296310" duration="32000" />
-      <workItem from="1652687654450" duration="691000" />
-      <workItem from="1652713692754" duration="6635000" />
-      <workItem from="1652720583114" duration="2072000" />
-      <workItem from="1652793774963" duration="25000" />
-      <workItem from="1652795272403" duration="529000" />
-      <workItem from="1653048304903" duration="3000" />
-      <workItem from="1653244154948" duration="27000" />
-      <workItem from="1653299485687" duration="155000" />
-      <workItem from="1653486398926" duration="107000" />
-      <workItem from="1653486552699" duration="58000" />
-      <workItem from="1653486622895" duration="3877000" />
-      <workItem from="1653492184317" duration="7568000" />
-      <workItem from="1653745755074" duration="91000" />
-      <workItem from="1653745859153" duration="200000" />
-      <workItem from="1653746581795" duration="24000" />
-      <workItem from="1653746704280" duration="15000" />
-      <workItem from="1653747459823" duration="58000" />
-      <workItem from="1654009046971" duration="13602000" />
+      <updated>1654626816764</updated>
+      <workItem from="1654626817922" duration="19000" />
+      <workItem from="1654626902352" duration="111000" />
+      <workItem from="1654627026766" duration="1372000" />
     </task>
     <servers />
   </component>
@@ -120,27 +78,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/TodoList.tsx</url>
-          <line>64</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
