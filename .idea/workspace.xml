@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b73f2977-01cc-4f95-b414-072e8d27728f" name="Changes" comment="" />
+    <list default="true" id="e24d4b84-0bb2-4a87-bdda-d7474df3aba8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,18 +11,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/AppWithRedux.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Task.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Todolist.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Bbh1fa4cehVx3xddSebLeefvnk" />
+  <component name="ProjectId" id="2Bvj0xjT1e6IrFpMkfA6atV9pvq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,43 +28,48 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "A:/my-github/it-incubator-todolist-ts-11/src",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "A:\\my-github\\it-incubator-todolist-ts-11\\node_modules\\typescript\\lib",
+    "last_opened_file_path": "A:/my-github/it-incubator-todolist-ts-12/src",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "A:\\my-github\\it-incubator-todolist-ts-12\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="A:\my-github\it-incubator-todolist-ts-11\src" />
+      <recent name="A:\my-github\it-incubator-todolist-ts-12\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.storybook" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b73f2977-01cc-4f95-b414-072e8d27728f" name="Changes" comment="" />
-      <created>1657180479637</created>
+      <changelist id="e24d4b84-0bb2-4a87-bdda-d7474df3aba8" name="Changes" comment="" />
+      <created>1657793233285</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657180479637</updated>
-      <workItem from="1657180482407" duration="6687000" />
-      <workItem from="1657352164608" duration="5294000" />
+      <updated>1657793233285</updated>
+      <workItem from="1657793234653" duration="31000" />
+      <workItem from="1657793277333" duration="9060000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/AppWithRedux.tsx</url>
-          <line>110</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
